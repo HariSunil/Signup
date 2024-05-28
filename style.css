@@ -271,11 +271,6 @@ p{
     height:20px;
   }
   @media screen and (min-width:320px) and (max-width:600px){
-    .form-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     .chart{
         display:none;
     }
