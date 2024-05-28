@@ -18,6 +18,12 @@
 body{
     background: rgb(253,247,232);
 }
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 30px;
+}
 .element{  
     display:inline-flex;
     justify-content: center;
@@ -27,8 +33,6 @@ body{
     background: rgb(255,255,255);
     width: 400px;
     height: 520px;
-    margin-top: 30px;
-    margin-left: 200px;
     padding: 20px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -198,8 +202,7 @@ p{
     background-color: rgb(253,235,251);
     width:380px;
     height: 520px;
-    margin-top: 30px;
-    padding-block: 100px;   
+    padding-block: 100px;
     padding-inline: 20px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
