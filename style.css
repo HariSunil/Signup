@@ -1,0 +1,341 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'mediumfont';
+    src: url(./fonts/Mona-Sans-Medium.ttf);
+}
+@font-face {
+    font-family: 'regularfont';
+    src: url(./fonts/Mona-Sans-Regular.ttf);
+}
+@font-face {
+    font-family: 'lightfont';
+    src: url(./fonts/Mona-Sans-Light.ttf);
+}
+body{
+    background: rgb(253,247,232);
+}
+.element{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-element{
+    background: rgb(255,255,255);
+    width: 400px;
+    height: 520px;
+    margin-top: 30px;
+    margin-left: 200px;
+    padding: 20px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 0px 2px 2px 0px #888888;
+}
+.main-element{
+    padding-inline: 40px;
+}
+.base-element img{
+    width:50px;
+    height:40px;
+    position: relative;
+    top:8px;
+    right: 16px;
+}
+.base-element{
+    display: inline-flex;
+}
+#wunder{
+    font-family: 'mediumfont';
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
+    position: relative;
+    right: 24px;
+    bottom: 2px;
+}
+.first-element{
+    display: flex;
+    justify-content: space-between;
+}
+#b_ack{
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 4px;
+}
+.sub-element p{
+    margin-top: 14px;
+}
+#signform{
+    font-family: 'regularfont';
+    font-weight: 980;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+p{
+    line-height: 1.5;
+    margin-block: 8px;
+}
+#name,#name1,#name2,#name3{
+  font-size: 14px;
+  font-family: 'lightfont';
+  font-weight: 800;
+}
+.form input[type=text]{
+    background-color:white;
+    border-radius: 10px;
+    width: 100%;
+    height: 20px;
+    padding:10px;
+    border: 1px solid lightgray;
+    opacity: 0.5;
+  }
+  input[type=text]::placeholder{
+    font-size: 10px;
+    font-weight: 800;
+  }
+  input[type=password]::placeholder{
+     font-size: 16px;
+     font-weight: 800;
+  }
+  .form input[type=password]{
+    background-color:white;
+    border-radius: 10px;
+    width: 100%;
+    height: 20px;
+    padding:10px;
+    border: 1px solid lightgray;
+    opacity: 0.3;
+  }
+.box{
+    padding-inline: 10px;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    font-size:12px;
+}
+.box a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.sm{
+    display: flex;  
+    justify-content: space-around;
+    margin-bottom: 8px;
+}   
+.log{
+    font-size: 14px;
+    font-weight: 600;   
+    margin-top: 16px;
+    margin-left: 40px;
+}
+#acc{
+    opacity: 0.4;
+    font-size: 12px;
+}
+.log a{
+    text-decoration: none;
+    color: black;
+    font-size:12px ;
+    margin-left: 4px;
+}
+.log a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+#or{
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    font-size: 14px;
+    margin-block: 6px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    width:100%;
+    padding-block: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 14px;
+    border-radius: 8px;
+}
+.btn:hover{
+    background: gray;
+}
+.sm_btn{
+    background-color: rgb(241,244,249);
+    color:black;
+    border: none;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#agree{
+    opacity: 0.5;
+    padding-inline: 6px;
+    font-size: 14px;
+}
+.sm_btn:hover{
+    background: lightgrey;
+}
+#txt,#txt1{
+    font-family: 'lightfont';
+    font-size: 10px;
+    font-weight: 700;
+    padding-left: 8px;
+}
+.chart{
+    background-color: rgb(253,235,251);
+    width:380px;
+    height: 520px;
+    margin-top: 30px;
+    margin-right: 300px;
+    padding-block: 100px;   
+    padding-inline: 20px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px 2px 2px 0px #888888;
+    display: block;
+
+}
+.rating{
+    background-color: white;
+    width:280px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+#mg{
+    font-family: 'regularfont';
+    font-weight: 600;
+    font-size: 8px;
+}
+.rating p{
+    font-size: 12px;
+}
+.ratingstar{
+    color:gold;
+}
+#star{
+    font-size: 12px;
+}
+.graph{
+    background: white;
+    width:200px;
+    height: 220px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.growth{
+    font-size: 12px;
+    border-top: 1px solid;
+    margin-top: 30px;
+    padding: 10px;
+}
+#g1{
+    float: left;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    left:14px;
+  }
+  #tick{
+    position: relative;
+    top:14px;
+    right:10px;
+    font-size: 8px;
+  }
+  #arrow_img{
+    width:30px;
+    height:20px;
+  }
+  @media screen and (min-width:320px) and (max-width:600px){
+    .chart{
+        display:none;
+    }
+    .form-element{
+        width: 430px;
+        height: 570px;
+        margin-top: 200px;
+        margin-left: 90px;
+    }
+    .log{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .sm_btn{
+        margin-top: 6px;
+    }
+    #or{
+        margin-block: 8px;
+    }
+    #acc{
+        font-size: 14px;
+    }
+    .btn{
+        font-size:14px ;
+        padding-block: 10px;
+        margin-top: 16px;
+    }
+    #name,#name1,#name2,#name3{
+         font-size: 16px;
+    }
+  }
+  @media screen and (min-width:601px) and (max-width:980px){
+    .chart{
+        display:none;
+    }
+    .form-element{
+        width: 430px;
+        height: 580px;
+        margin-top: 200px;
+        margin-left: 140px;
+    }
+    .log{
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .sm_btn{
+        margin-top: 8px;
+    }
+    #or{
+        margin-block: 10px;
+    }
+    #acc{
+        font-size: 14px;
+    }
+    .btn{
+        font-size:14px ;
+        padding-block: 10px;
+        margin-top: 18px;
+    }
+    #name,#name1,#name2,#name3{
+         font-size: 16px;
+    }
+  }
+  @media screen and (min-width:981px) and (max-width:1200){
+    
+  }
+
+
+
+
