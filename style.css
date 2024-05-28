@@ -306,8 +306,11 @@ p{
     .form-element{
         width: 430px;
         height: 580px;
-        margin-top: 200px;
-        margin-left: 140px;
+        margin-block: 200px;
+        margin-inline: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .log{
         margin-top: 30px;
