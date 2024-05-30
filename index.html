@@ -10,85 +10,85 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <div class="form-container">
-    <div class="element">
-          <form class="form-element">
-                  <div class="main-element">
-                          <div class="first-element">
-                                      <div class="sub-element">
-                                            <div class="base-element">
-                                                    <img src="./images/Down Arrow.jpg">
+      <div class="form-container">
+          <div class="element">
+                <form class="form-element">
+                        <div class="main-element">
+                                <div class="first-element">
+                                            <div class="sub-element">
+                                                  <div class="base-element">
+                                                          <img src="./images/Down Arrow.jpg">
+                                                  </div>
+                                                  <div class="base-element">
+                                                          <h2 id="wunder">WunderUI</h3>
+                                                  </div>
                                             </div>
-                                            <div class="base-element">
-                                                    <h2 id="wunder">WunderUI</h3>
-                                            </div>
+                                    </div>
+                                    <div class="UIform">
+                                      <h3 id="signform">Sign Up</h3>
+                                  </div>
+                              <div>
+                                  <div class="form">
+                                    <p>
+                                      <label for="Username"><span id="name">Username</span></label>
+                                      <input style="font-family: 'Font Awesome 5 free'; font-weight:700;" type="text" class="fontawesome" id="icon1" placeholder="&#Xf2bd;   wunderUI-user" name="username" required />
+                                      </p>
+                                  </div>
+                                  <div class="form">
+                                    <p>
+                                      <label for="Email" ><span id="name1">Email</span></label>
+                                      <div class="input-container">
+                                      <input style="font-family: 'Font Awesome 5 free'; font-weight:700;" type="text" class="fontawesome" placeholder="&#Xf0e0;    Enter your Email" name="Email" required>
                                       </div>
-                              </div>
-                              <div class="UIform">
-                                <h3 id="signform">Sign Up</h3>
+                                      </p>
+                                  </div>
+                                  <div class="form">
+                                    <p>
+                                      <label for="Password"><span id="name2">Password</span></label>
+                                      <input style="font-family: 'Font Awesome 5 free'; font-weight:700;" type="password" class="fontawesome" placeholder="&#Xf023;  ............                                                                             &#xf06e;" name="password" required>
+                                      </p>
+                                  </div>
+                                  <div class="form">
+                                    <p>
+                                      <label for="pwd"><span id="name3">Confirm Password</span></label>
+                                      <input style="font-family: 'Font Awesome 5 free'; font-weight:700;" type="password" placeholder="&#Xf023;                                                                                                      &#xf06e;" name="c-pwd" required>
+                                      </p>
+                                    </div>
                             </div>
-                         <div>
-                            <div class="form">
-                              <p>
-                                <label for="Username"><span id="name">Username</span></label>
-                                <input style="font-family: 'Font Awesome 5 free'; font-weight:700;" type="text" class="fontawesome" id="icon1" placeholder="&#Xf2bd;   wunderUI-user" name="username" required />
-                                </p>
-                             </div>
-                             <div class="form">
-                              <p>
-                                <label for="Email" ><span id="name1">Email</span></label>
-                                <div class="input-container">
-                                <input style="font-family: 'Font Awesome 5 free'; font-weight:700;" type="text" class="fontawesome" placeholder="&#Xf0e0;    Enter your Email" name="Email" required>
-                                </div>
-                                </p>
+                            <div class="box">
+                                  <label>
+                                      <input id="terms" type="checkbox" ><span id="agree">I agree with</span> <a href="#"><b><span id="policy">Terms and Policy.</span></b></a>
+                                  </label>
                             </div>
-                            <div class="form">
-                              <p>
-                                <label for="Password"><span id="name2">Password</span></label>
-                                <input style="font-family: 'Font Awesome 5 free'; font-weight:700;" type="password" class="fontawesome" placeholder="&#Xf023;  ............                                                                             &#xf06e;" name="password" required>
-                                </p>
-                             </div>
-                             <div class="form">
-                              <p>
-                                <label for="pwd"><span id="name3">Confirm Password</span></label>
-                                <input style="font-family: 'Font Awesome 5 free'; font-weight:700;" type="password" placeholder="&#Xf023;                                                                                                      &#xf06e;" name="c-pwd" required>
-                                </p>
-                              </div>
+                            <div>
+                                  <button type="submit" class="btn">Create an Account</button>
+                            </div>
+                                <p id="or">or</p>
+                            <div class="sm">
+                                    <button type="submit" class="sm_btn"><i class="fa-brands fa-google" style="font-size:12px"></i><span id="txt">Continue with Google</span></button>
+                                    <button type="submit" class="sm_btn"><i class="fa-brands fa-apple" style="font-size:12px"></i><span id="txt1">Login with AppleID</span></button>
+                            </div>
+                            <div class="log"><span id="acc">Already have an account?</span><a href="#"><b>Log In</b></a></div>
+                </form>
+            </div>
+            <div class="element chart">
+                      <div class="rating">
+                            <img src="./images/2289_SkVNQSBGQU1PIDEwMjgtMTIy.jpg" alt="avatar" class="avatar">
+                            <span id="tick">&#x2705;</span>
+                            <p id="component"><i>.so clean and ready to use<br> components.i love it!</i></p>
+                            <div class="ratingstar">
+                              <span id="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                        </div>
+                      <div class="graph">
+                          <canvas id="myChart" width="200" height="150"></canvas>
+                          <div class="growth" >
+                              <i style="font-family: 'Font Awesome 5 free'; font-weight:700;" id="g1" class="fa-solid fa-rocket"></i>
+                              <span id="mg"><b>Manage your growth</b></span>  
+                          </div>
                       </div>
-                       <div class="box">
-                            <label>
-                                <input id="terms" type="checkbox" ><span id="agree">I agree with</span> <a href="#"><b><span id="policy">Terms and Policy.</span></b></a>
-                            </label>
-                       </div>
-                      <div>
-                            <button type="submit" class="btn">Create an Account</button>
-                      </div>
-                           <p id="or">or</p>
-                      <div class="sm">
-                              <button type="submit" class="sm_btn"><i class="fa-brands fa-google" style="font-size:12px"></i><span id="txt">Continue with Google</span></button>
-                              <button type="submit" class="sm_btn"><i class="fa-brands fa-apple" style="font-size:12px"></i><span id="txt1">Login with AppleID</span></button>
-                       </div>
-                       <div class="log"><span id="acc">Already have an account?</span><a href="#"><b>Log In</b></a></div>
-           </form>
-       </div>
-       <div class="element chart">
-                 <div class="rating">
-                      <img src="./images/2289_SkVNQSBGQU1PIDEwMjgtMTIy.jpg" alt="avatar" class="avatar">
-                      <span id="tick">&#x2705;</span>
-                      <p id="component"><i>.so clean and ready to use<br> components.i love it!</i></p>
-                      <div class="ratingstar">
-                        <span id="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                      </div>
-                   </div>
-                <div class="graph">
-                    <canvas id="myChart" width="200" height="150"></canvas>
-                    <div class="growth" >
-                        <i style="font-family: 'Font Awesome 5 free'; font-weight:700;" id="g1" class="fa-solid fa-rocket"></i>
-                        <span id="mg"><b>Manage your growth</b></span>  
-                    </div>
-                </div>
+              </div>
         </div>
-</div>
 <script>
 const data = {
 labels: ['January', 'February', 'March', 'April', 'May', 'June'],
