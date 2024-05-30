@@ -20,9 +20,13 @@ body{
 }
  .form-container{ 
      display: flex; 
+     justify-content: center;
      align-items: center; 
-      margin-block: 30px;
+      margin-block: 100px;
  }
+ body::-webkit-scrollbar {
+    display: none;
+}
 .element{  
     display:inline-flex;
     justify-content: center;
@@ -330,10 +334,7 @@ p{
          font-size: 16px;
     }
   }
-  @media (min-width:981) and (max-width:1400){
-    .element{
-        margin-top: 100px;
-    }
+  @media (min-width:981) and (max-width:1200){
     .chart{
         display: block;
     }
