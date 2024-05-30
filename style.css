@@ -32,21 +32,21 @@ body{
 .form-element{
     background: rgb(255,255,255);
     width: 400px;
-    height: 520px;
+    height: 524px;
     padding: 20px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     box-shadow: 0px 2px 2px 0px #888888;
 }
 .main-element{
-    padding-inline: 40px;
+    padding-inline: 28px;
 }
 .base-element img{
     width:50px;
     height:40px;
     position: relative;
-    top:8px;
-    right: 16px;
+    top:2px;
+    right: 48px;
 }
 .base-element{
     display: inline-flex;
@@ -57,27 +57,14 @@ body{
     font-size: 24px;
     letter-spacing: 1px;
     position: relative;
-    right: 24px;
-    bottom: 2px;
-}
-.first-element{
-    display: flex;
-    justify-content: space-between;
-}
-#b_ack{
-    font-weight: 300;
-    font-size: 18px;
-    margin-left: 4px;
-}
-.sub-element p{
-    margin-top: 14px;
+    right: 58px;
+    bottom: 8px;
 }
 #signform{
     font-family: 'regularfont';
-    font-weight: 980;
+    font-weight: 900;
     font-size: 20px;
-    margin-top: 16px;
-    margin-bottom: 8px;
+    margin-top: 4px;
 }
 p{
     line-height: 1.5;
@@ -89,16 +76,17 @@ p{
   font-weight: 800;
 }
 .form input[type=text]{
-    background-color:white;
+    background:white;
     border-radius: 10px;
     width: 100%;
-    height: 20px;
-    padding:10px;
+    height: 28px;
+    padding-block:14px;
+    padding-inline: 6px;
     border: 1px solid lightgray;
     opacity: 0.5;
   }
   input[type=text]::placeholder{
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 800;
   }
   input[type=password]::placeholder{
@@ -106,11 +94,12 @@ p{
      font-weight: 800;
   }
   .form input[type=password]{
-    background-color:white;
+    background:white;
     border-radius: 10px;
     width: 100%;
-    height: 20px;
-    padding:10px;
+    height: 28px;
+    padding-block:14px;
+    padding-inline: 6px;
     border: 1px solid lightgray;
     opacity: 0.3;
   }
@@ -133,6 +122,7 @@ p{
 }   
 .log{
     font-size: 14px;
+    font-family: 'lightfont';
     font-weight: 600;   
     margin-top: 16px;
     margin-left: 40px;
@@ -201,7 +191,7 @@ p{
 .chart{
     background-color: rgb(253,235,251);
     width:380px;
-    height: 520px;
+    height: 524px;
     padding-block: 100px;
     padding-inline: 20px;
     border-top-right-radius: 12px;
