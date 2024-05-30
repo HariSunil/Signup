@@ -22,7 +22,7 @@ body{
      display: flex; 
      justify-content: center;
      align-items: center; 
-      margin-block: 250px;
+      margin-block: 350px;
  }
  body::-webkit-scrollbar {
     display: none;
